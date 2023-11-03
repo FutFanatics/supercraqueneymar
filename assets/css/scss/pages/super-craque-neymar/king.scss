@@ -1,7 +1,7 @@
 
 $color-primary: #03152E;
 $color-secondary: linear-gradient(180deg, rgba(255, 255, 255, 0.13) 0%, rgba(8, 45, 66, 0) 100%);
-$color-third: linear-gradient(180deg, #00A022 0%, #03152E 100%);                 
+$color-third: linear-gradient(180deg, #D83979 0%, #03152E 100%);               
 $color-dotsActive:#00A022;
 $color-dots:#535353;
 
@@ -18,7 +18,7 @@ $color-dots:#535353;
     
 
     @include md{
-        padding: 60px 0px;
+        padding: 0px 0px;
         overflow: hidden;
     }
     
@@ -54,13 +54,14 @@ $color-dots:#535353;
             font-size: 18px;
             text-align: center;
             margin-bottom: 8px;
-            padding: 40px 20px;
+            padding: 40px 0px;
 
             @include md{
                 font-size: 18px;
                 text-align: justify;
                 margin-bottom: 0;
                 padding: 0;
+                margin-left: 36px;
             }
             
         }
@@ -87,7 +88,14 @@ $color-dots:#535353;
             }
 
         }
-
+        &-container{
+            padding-top: 40px;
+        }
+        &-card-session{
+            background: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraqueneymar/bg-king.png');
+            background-size: cover;
+            background-position: center right;
+        }
         
     }
     .slick__king{
@@ -125,7 +133,7 @@ $color-dots:#535353;
             .king-card{
                 width: 350px;
                 padding: 32px;
-                min-height: 400px;
+                min-height: 350px;
                 border-radius: 10px;
                 background-color:#03152E;
                 background-size: cover;
@@ -190,7 +198,7 @@ $color-dots:#535353;
                             margin-bottom: 0px;
                             color: #363636;
                             margin-left: 8px;
-                            font-size: 32px;
+                            font-size: 25px;
                         }
                     }
                     &-box-content{
@@ -205,7 +213,7 @@ $color-dots:#535353;
 
                         @include md{
                             color: #363636;
-                            font-size: 16px;
+                            font-size: 14px;
                         }
                     }
                 }

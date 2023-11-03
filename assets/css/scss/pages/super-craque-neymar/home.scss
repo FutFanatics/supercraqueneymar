@@ -221,7 +221,7 @@ p{
 }
 .c-home{
     background-image: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquemarta/bg-home-mob.png');
-    min-height: 100vh; 
+    min-height: 110vh; 
     
     position: relative;
     justify-content: center;
@@ -230,7 +230,7 @@ p{
     background-position: center;
     
     @include md{
-        background-image: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraquemarta/bg-desk.png');
+        background-image: url('https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/supercraqueneymar/bg-desk.png');
     }
 
     .home{

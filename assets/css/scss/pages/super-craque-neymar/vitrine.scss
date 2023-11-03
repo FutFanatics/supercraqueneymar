@@ -5,6 +5,9 @@
     @media(min-width: 1480px) {@content;}
 }
 
+*{
+    font-family: 'gotham';
+}
 
 .c-vitrine{
     background-color:#FFF ;
@@ -64,9 +67,9 @@
                 position: absolute;
                 right: 20px;
                 top: 5px;
-                background-color:#00A022;
+                background-color:#5BF405;
                 font-weight: 800;
-                color: #FFFFFF ;
+                color: #000 ;
                 font-size: 12px;
                 border-radius: 20px;
                 padding: 3px 7px;
@@ -114,10 +117,10 @@
                 .oferta{
                     text-transform: uppercase;
                     font-weight: 700;
-                    color: #FFF;
+                    color: #000;
                     min-height: 25px;
                     max-width: 80px;
-                    background-color: #00A022;
+                    background-color: #5BF405;
                     font-size: 12px;
                     border-radius: 20px;
                     justify-content: center;
@@ -181,7 +184,7 @@
                 button {
                     opacity: 1;
                     width: 40px;
-                    background:#00A022;
+                    background:#5BF405;
                 }
             }
         }

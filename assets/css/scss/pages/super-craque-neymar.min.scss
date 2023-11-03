@@ -1,5 +1,5 @@
 
-//sass --watch assets/css/scss/pages/super-craque-marta.min.scss:assets/css/super-craque-marta.min.css
+//sass --watch assets/css/scss/pages/super-craque-neymar.min.scss:assets/css/super-craque-neymar.min.css
 
 $vitrine-blue: #192C53;
 $vitrine-gray: #747474;
@@ -19,12 +19,12 @@ $vitrine-gray: #747474;
 
 @import "../components/variables";
 
-@import "super-craque-marta/home";
-@import "super-craque-marta/king";
-@import "super-craque-marta/details";
-@import "super-craque-marta/vitrine";
-@import "super-craque-marta/chronology";
-@import "super-craque-marta/curiosity";
+@import "super-craque-neymar/home";
+@import "super-craque-neymar/king";
+@import "super-craque-neymar/details";
+@import "super-craque-neymar/vitrine";
+@import "super-craque-neymar/chronology";
+@import "super-craque-neymar/curiosity";
 @import "../fonts/icons-font";
 @mixin md{
     @media (min-width: 1200px) { @content; }

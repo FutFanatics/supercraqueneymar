@@ -184,9 +184,6 @@
 					} else {
 						template.find('.price').html('<div class="current-price">R$ ' + price.replace('.', ',') + '</div>');
 					}
-					if (payment) {
-						template.find('.price').append('<div class="installments">' + payment.replace('Sem juros', '').replace('desconto', 'desconto via PIX') + '</div>');
-					}
 
 					
 					// variants[0].forEach(function(row){
